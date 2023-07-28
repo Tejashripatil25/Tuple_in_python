@@ -1,5 +1,5 @@
 """"""
-"""
+
 1.Reverse the following tuple. a= (10, 20, 30, 40, 50)
 a = (10, 20, 30, 40, 50)
 print(list(reversed(a)))
@@ -169,7 +169,40 @@ for i in range(3):
     if roll_num == Det[i][0]:
         print(Det[i])
         c = 1
+======================================================================
+# Different types of tuples
+
+# Empty tuple
+my_tuple = ()
+print(my_tuple)
+
+# Tuple having integers
+my_tuple = (1, 2, 3)
+print(my_tuple)
+
+# tuple with mixed datatypes
+my_tuple = (1, "Hello", 3.4)
+print(my_tuple)
+
+# nested tuple
+my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+print(my_tuple)
         break
 else:
     print("Record not found")
-"""
+=======================================================================
+# accessing tuple elements using slicing
+my_tuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+
+# elements 2nd to 4th index
+print(my_tuple[1:4])  #  prints ('r', 'o', 'g')
+
+# elements beginning to 2nd
+print(my_tuple[:-7]) # prints ('p', 'r')
+
+# elements 8th to end
+print(my_tuple[7:]) # prints ('i', 'z')
+
+# elements beginning to end
+print(my_tuple[:]) # Prints ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+===========================================================================
